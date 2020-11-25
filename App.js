@@ -15,19 +15,22 @@ import Button from './customView/Button'
 class App extends React.Component {
   _five = () => {
     console.log(5);
-    // this.props.navigation.navigate("NavigatorScreen")
+    this.props.navigation.navigate("Fiv")
   };
 
   _ten = () => {
-    console.warn(10);
+    console.log(10);
+    this.props.navigation.navigate("Ten")
   };
 
   _fifteen = () => {
-    console.error(15)
+    console.log(15)
+    this.props.navigation.navigate("Fifteen")
   }
 
   _twenty = () => {
     console.info(20)
+    this.props.navigation.navigate("Twenty")
   }
 
   render() {
