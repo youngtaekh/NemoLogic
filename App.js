@@ -15,7 +15,7 @@ import Button from './customView/Button'
 class App extends React.Component {
   _five = () => {
     console.log(5);
-    this.props.navigation.navigate("Fiv")
+    this.props.navigation.navigate("Five")
   };
 
   _ten = () => {

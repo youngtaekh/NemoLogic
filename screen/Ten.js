@@ -6,7 +6,6 @@ import Button from './../customView/Button'
 import ToggleButton from './../customView/ToggleButton'
 import { INIT, FILL, EMPTY } from './../Constant'
 import { RowGuide, ColumnGuide, MockData } from './../MockData'
-import Map from './../Map'
 
 const SIZE = 10
 var mStateMap = [];
